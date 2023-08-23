@@ -15,15 +15,19 @@ export const Work = (props : WorkPropsType) => {
             <Text>{props.text}</Text>
             <Link href={"#"}>demo</Link>
             <Link href={"#"}>code</Link>
-
         </StyledWork>
     );
 };
 
 const StyledWork = styled.div`
   background-color: #90c59c;
+  max-width: 540px;
+  width: 100%;
 `
 const Image = styled.img`
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
     
 `
 const Link = styled.a`
