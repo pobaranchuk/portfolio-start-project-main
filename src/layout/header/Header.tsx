@@ -18,5 +18,4 @@ const StyledHeader = styled.header `
   background-color: #c8f5b6;
   display: flex;
   justify-content: space-between;
-
 `
