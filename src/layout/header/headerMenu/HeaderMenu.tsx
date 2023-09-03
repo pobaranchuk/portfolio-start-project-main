@@ -76,8 +76,7 @@ const ListItem = styled.li`
     
   }
 
-  &:hover {
-    
+  &:hover {    
     &::before{
       transform: scale(1);
     }
