@@ -2,7 +2,6 @@ import React from 'react';
 import {Icon} from "../../../../components/icon/Icon";
 import styled from "styled-components";
 import {FlexWrapper} from "../../../../components/FlexWrapper";
-import {theme} from "../../../../styles/Theme";
 
 
 type SkillPropsType = {
