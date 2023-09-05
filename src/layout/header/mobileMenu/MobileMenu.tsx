@@ -6,10 +6,10 @@ import {theme} from "../../../styles/Theme";
 export const MobileMenu = (props: { menuItems: Array<string> }) => {
     return (
         <StyledMobileMenu>
-            <BurgerButton isOpen={true}>
+            <BurgerButton isOpen={false}>
                 <span></span>
             </BurgerButton>
-            <MobileMenuPopup isOpen={true}>
+            <MobileMenuPopup isOpen={false}>
                 <ul>
                     {props.menuItems.map((item, index) => {
                         return <ListItem key={index}>
