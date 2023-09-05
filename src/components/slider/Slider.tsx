@@ -32,7 +32,7 @@ const Slide = styled.div `
   text-align: center;
 `
 const Text = styled.p `
-  margin-top: 20px;
+  margin-top: 35px;
   margin-bottom: 15px;
 
 `
@@ -44,7 +44,7 @@ const Name = styled.span `
   letter-spacing: 1px;
   text-transform: uppercase;
   display: inline-block;
-  margin: 22px 0 42px;
+  margin: 15px 0 27px;
 `
 const Pagination = styled.div`
   span {
