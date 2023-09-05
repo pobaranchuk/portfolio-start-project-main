@@ -53,8 +53,6 @@ const SocialList = styled.ul`
   margin: 30px 0; // сверху + снизу а по бокам 0
 `
 const SocialItem = styled.li`
-    
-    
 `
 const SocialLink = styled.a`
   border-radius: 25px;
@@ -78,5 +76,5 @@ const Copyright = styled.small`
   text-align: center;
   font-size: 12px;
   font-weight: 400;
-    
+  
 `
