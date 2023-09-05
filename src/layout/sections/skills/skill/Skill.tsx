@@ -30,7 +30,7 @@ export const Skill = (props: SkillPropsType) => {
 export const StyledSkill = styled.div`
   width: 330px;
   flex-grow: 1; // дабы при сужении когда будут два скила не было между ними большого пустого пространства
-  padding: 62px 20px 40px;
+  padding: 45px 20px 47px;
   
   @media ${theme.media.mobile} {
     padding: 62px 0 40px;

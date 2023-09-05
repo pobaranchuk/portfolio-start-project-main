@@ -107,7 +107,7 @@ const Description = styled.div`
 `
 
 const Text = styled.p`
-  margin: 14px 0 10px;
+  margin: 14px 0 14px;
 `
 
 

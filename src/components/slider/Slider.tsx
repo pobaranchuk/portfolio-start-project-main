@@ -32,7 +32,9 @@ const Slide = styled.div `
   text-align: center;
 `
 const Text = styled.p `
-    
+  margin-top: 20px;
+  margin-bottom: 15px;
+
 `
 const Name = styled.span `
   text-align: center;

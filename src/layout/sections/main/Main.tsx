@@ -32,7 +32,6 @@ const StyledMain = styled.section`
 const PhotoWrapper = styled.div`
   position: relative;
   z-index: 0;
-  margin-top: 65px;
 
   &::before {
     content: "";
@@ -50,6 +49,9 @@ const PhotoWrapper = styled.div`
       width: 314px;
       height: 414px;
     }
+  }
+  @media ${theme.media.mobile} {// когда будут друг под друга передвигаться должен быть маржин
+    margin-top: 65px;
   }
 `
 const Photo = styled.img`
