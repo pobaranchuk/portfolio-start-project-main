@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.div` // чтобы было как окно, дабы к краям контент не прилипал
   max-width: 1170px;
   width: 100%;
   min-height: 100%;

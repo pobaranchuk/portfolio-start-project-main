@@ -26,5 +26,4 @@ export const SectionTitle = styled.h2`
       bottom: -24px;
     }
   }
-
 `
