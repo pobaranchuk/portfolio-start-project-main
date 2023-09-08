@@ -2,7 +2,14 @@ import {theme} from "../../../styles/Theme";
 import styled from "styled-components";
 import {Link} from "../../../components/Link";
 import {Button} from "../../../components/Button";
+import {FlexWrapper} from "../../../components/FlexWrapper";
 
+const Works = styled.section`
+  position: relative;
+  ${FlexWrapper} {
+    gap: 30px; // так как justify={"space-between"} то отступы там большие и не заданны, и когда будут сжимать окно элементы будут прилипать друг к другу, для этого гэп резервирует те 30px для зазора в случае сжатия
+  }
+`
 const Work = styled.div`
   background-color: ${theme.colors.secondaryBg};
   width: 330px;
@@ -85,6 +92,7 @@ const Text = styled.p`
 `
 
 export const S = {
+    Works,
     Work,
     ImageWrapper,
     Image,
