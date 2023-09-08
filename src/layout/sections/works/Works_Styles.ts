@@ -12,8 +12,8 @@ const Works = styled.section`
 `
 const Work = styled.div`
   background-color: ${theme.colors.secondaryBg};
-  width: 330px;
-  flex-grow: 1; // будет 330 но этот параметр заполнит пустоту до максимума ибо нету ограничения max-width
+  //width: 330px;
+  //flex-grow: 1; // будет 330 но этот параметр заполнит пустоту до максимума ибо нету ограничения max-width
 
   ${Link} {
     padding: 10px 0;
@@ -23,10 +23,10 @@ const Work = styled.div`
     }
   }
 
-  @media ${theme.media.desktop} {
-    // breakpoint
-    max-width: 540px; // макс ширина ограничивается только на десктопах, ато что ниже то ширина ворка будет заливать всё пространство без ограничения
-  }
+  // @media ${theme.media.desktop} {
+  //   // breakpoint
+  //   max-width: 540px; // макс ширина ограничивается только на десктопах, ато что ниже то ширина ворка будет заливать всё пространство без ограничения
+  // }
 `
 const ImageWrapper = styled.div`
   position: relative;

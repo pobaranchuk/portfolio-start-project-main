@@ -32,7 +32,7 @@ export const Particle:React.FC = () => {
                         },
                         onHover: {
                             enable: true,
-                            mode: "bubble",
+                            mode: "repulse",
                         },
                         resize: true,
                     },

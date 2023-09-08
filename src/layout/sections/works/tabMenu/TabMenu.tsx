@@ -33,7 +33,7 @@ const StyledTabMenu = styled.nav`
     justify-content: space-between;
     max-width: 353px;
     width: 100%;
-    border: 1px solid red;
+    //border: 1px solid red;
     margin: 0 auto 40px; // margin: 0 auto - это стандартный способ выровнять элемент по центру
   }
 `
