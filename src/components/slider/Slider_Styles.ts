@@ -16,6 +16,7 @@ const Slide = styled.div `
 const Text = styled.p `
   margin-top: 35px;
   margin-bottom: 15px;
+  cursor: grab;
 
 `
 const Name = styled.span `

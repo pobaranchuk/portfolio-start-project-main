@@ -75,21 +75,29 @@ const MobileMenuPopup = styled.div <{ isOpen: boolean }>`
   bottom: 0;
   background-color: rgba(31, 31, 32, 0.90);
   z-index: 1;
-  display: none; // по умолчанию есть закрыта, но есть придёт из пропсов опен, то она появится на экране
-  
-  ${props => props.isOpen && css <{ isOpen: boolean }>` // удостоверяемся, что это ТОТ булиан
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  `}
+  //display: none; // по умолчанию есть закрыта, но есть придёт из пропсов опен, то она появится на экране
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  transition: .4s ease-in-out;
 
   ul {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    transition: 1s ease-in-out;
   }
+
+  ${props => props.isOpen && css <{ isOpen: boolean }>` // удостоверяемся, что это ТОТ булиан
+    transform: translateY(0%);
+    
+    & ul {
+      gap: 30px;      
+    }
+  `}
 `
 const BurgerButton = styled.button <{ isOpen: boolean }>`
   position: fixed;

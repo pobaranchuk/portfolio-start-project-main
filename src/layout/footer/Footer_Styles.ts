@@ -17,6 +17,7 @@ const SocialList = styled.ul`
   margin: 30px 0; // сверху + снизу а по бокам 0
 `
 const SocialItem = styled.li`
+    
 `
 const SocialLink = styled.a`
   border-radius: 25px;
@@ -26,6 +27,7 @@ const SocialLink = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: ${theme.animations.transition};
 
   color: ${theme.colors.accent}; // меняем поведения внутри свг иконки
 
